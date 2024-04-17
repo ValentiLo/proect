@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background: #bfc2e8;font: 2em bold sans-serif;}
+        .cont{display: flex;}
+        .fl { width: 90px; height: 90px;background: #e3f307;margin: 10px;}
+        td{padding: 10px;background: #e5f445;}
+        table{margin: auto;}
+        caption{background: #e3f307;border: 1px double red;}
+    </style>
+</head>
+<body>
+    <h2>Здесь расположение элементов изначальное до применения flex; </h2>
+    <div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+    </div>
+    <h2>Здесь расположение элементов display: flex; </h2>
+    <div class="cont">
+        <div class="fl"></div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+        <div class="fl"></div>
+    </div>
+    <table>
+        <caption>Для справки</caption>
+        <tr>
+            <td>width</td>
+            <td>задает ширину</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>задает высоту</td>
+        </tr>
+        <tr>
+            <td>background</td>
+            <td>цвет фона</td>
+        </tr>
+        <tr>
+            <td>margin</td>
+            <td>отступ</td>
+        </tr>
+        <tr><td>padding</td>
+            <td>отступ</td></tr>
+        <tr>
+            <td>class</td>
+            <td>объявляет класс для элемента</td>
+        </tr>
+    </table>
+</body>
+</html>
